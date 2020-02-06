@@ -3,7 +3,6 @@
 XSOCK=/tmp/.X11-unix
 XAUTH=/home/$USER/.Xauthority
 SHARED_DIR=/home/autoware/.autoware
-HOST_DIR=/home/$USER/.autoware
 
 docker run --gpus all \
     -it --rm \
